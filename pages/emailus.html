@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type = 'text/css' rel = 'stylesheet' href = '..//assets/css/bootstrap.css'> </link>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+        <!-- css and js links -->
+        <link type = 'text/css' rel = 'stylesheet' href = '..//assets/css/emailus.css'> </link>
+        <script type="text/javascript" src='..//assets/js/emailus.js'></script>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                    <button class="navbar-toggle" data-toggle = "collapse" data-target =".navHeaderCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>  
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="acive"><a href = "..//index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"> Home</span></a></li>
+                            <li><a href = "music.html"><span class="glyphicon glyphicon-music" aria-hidden="true"> Music</span></a></li>
+                            <li><a href = "photos.html"><span class="glyphicon glyphicon-camera" aria-hidden="true"> Photography</span></a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-envelope" aria-hidden="true"> Contact Us</span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href = "emailus.html">Email Us</a></li>
+                                    <li><a href = "signup.html">Sign Up</a></li>  
+                                </ul>
+                            </li>  
+                        </ul>
+                    </div>   
+                </div> 
+            </div>
+            <div class="content">
+                <h1>Email Us</h1>
+                <p>If you have any queries please feel free to contact us via email.<br>
+                Just simply enter your email bellow and get typing! <br><br>
+                We hope to be in touch with you within 1-2 weeks (or possibly  earlier if you're lucky).</p>
+                <form  Action="mailto:kyranight@hotmail.co.uk" METHOD="POST" ENCTYPE="text/plain">
+                    <div class="Section">
+                        <h2>The Message</h2>
+                        <p>To compose the message type in your email, then the message and click submit. - We need your email so we can reply to you. </p>
+                        <div class="question"><span>First Name:</span></div>
+                        <input type='text' name='FirstName' required></input>
+                        <br>
+                        <div class="question"><span>Last Name:</span></div>
+                        <input type='text' name='LastName' required></input>
+                        <br>
+                        <div class="question"><span>Email Address:</span></div>
+                        <input type='text' name='EmailAddress' required></input>
+                        <br>
+                        <div class="question"><span>What is your enquiry?</span></div>
+                        <textarea name='Enquiries' cols='30' rows='10'></textarea>
+                        <br>
+                        <br>
+                    </div>
+                <center><input type="submit" value="Submit"></center>
+                <br>
+                </form>     	
+            </div>
+        </div>    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    </body>
+</html>

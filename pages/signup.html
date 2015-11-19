@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type = 'text/css' rel = 'stylesheet' href = '..//assets/css/bootstrap.css'> </link>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+        <!-- css and js links -->
+        <link type = 'text/css' rel = 'stylesheet' href = '..//assets/css/signup.css'> </link>
+        <script type="text/javascript" src='..//assets/js/signup.js'></script>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                    <button class="navbar-toggle" data-toggle = "collapse" data-target =".navHeaderCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>  
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="acive"><a href = "..//index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"> Home</span></a></li>
+                            <li><a href = "music.html"><span class="glyphicon glyphicon-music" aria-hidden="true"> Music</span></a></li>
+                            <li><a href = "photos.html"><span class="glyphicon glyphicon-camera" aria-hidden="true"> Photography</span></a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-envelope" aria-hidden="true"> Contact Us</span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href = "emailus.html">Email Us</a></li>
+                                    <li><a href = "signup.html">Sign Up</a></li>  
+                                </ul>
+                            </li>  
+                        </ul>
+                    </div>   
+                </div> 
+            </div>
+            <div class="content">
+                <h1>Sign Up</h1>
+                <p>Why, hello. You've come to join the Media Collection one of the most spectacular media gallaries on the net! <br>
+                Signing up to our media site will mean that we will give you updates when there are new posts so that you <b>NEVER</b> miss out on the exclusive media that we have on offer. By joining our media site you will also be able to send us some of your own work which will be posted on one of our pages to share with others. A great way to get your work recognised! <br><br>
+                So, what are you waiting for? Start filling in your details below and get involved with The Media Collection!</p>
+                    <form  Action="mailto:kyranight@hotmail.co.uk" METHOD="POST" ENCTYPE="text/plain">
+                        <div class="Section">
+                            <h2>General Information</h2>
+                            <p>We just need some of your general details to get you linked with our network, quickly fill in these items for regular updates and be able to send us your media!</p>
+                            <div class="question"><span>First Name:</span></div>
+                            <input type='text' name='FirstName' required></input>
+                            <br>
+                            <div class="question"><span>Middle Name:</span></div>
+                            <input type='text' name='MiddleName'></input>
+                            <br>
+                            <div class="question"><span>Last Name:</span></div>
+                            <input type='text' name='LastName' required></input>
+                            <br>
+                            <div class="question"><span>Email Address:</span></div>
+                            <input type='text' name='EmailAddress' required></input>
+                            <br>
+                            <div class="question">Select your Date of Birth</span></div>
+                            <input type="date" min="" max="today-18years" required>
+                            <br>
+                            <p>*DISCLAIMER:You must be over the age of 18 to join*</p>
+                        </div>
+                    <center><input type="submit" value="Submit"></center>
+                    <br>
+                    <center><input type="button" value="Next Step" onclick="window.location.href=''"></a></center>
+                    </form>     	
+            </div>
+        </div>       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    </body>
+</html>

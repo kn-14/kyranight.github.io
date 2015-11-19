@@ -1,0 +1,53 @@
+.backdrop{
+	-webkit-filter: opacity(0.4);
+	position: relative;
+	top: 15px
+	}
+
+h1{
+	font-family: Poiret One;
+	position: absolute;
+	top: 9em;
+}
+h1 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   font-size: 60px;
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+.backdrop{
+    width: 100%;
+    height: auto;
+}
+p{
+  background-color: rgba(0, 120, 100, 0.51);
+  position: absolute;
+  bottom: -262px;
+  left: 15px;
+  width: 550px;
+  padding: 20px;
+  display: block;
+  color: white;
+  font-size: 22px;
+}
+.prompt{
+  background-color: rgba(100, 10, 100, 0.51);
+  position: absolute;
+  bottom: -360px;
+  left: 45px;
+  width: 200px;
+  padding: 20px;
+  display: block;
+  color: white;
+  font-size: 24px;
+
+}
+#wowslider-container1{
+    position: absolute;
+    top: -355px;
+    left: 280px;
+    display: block;
+}
