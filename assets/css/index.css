@@ -1,53 +1,103 @@
-.backdrop{
-	-webkit-filter: opacity(0.4);
-	position: relative;
-	top: 15px
-	}
+* {
+    margin: 0;
+    padding: 0;
+}
+.image {
+    height: 750px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 1;
+    }
+
+.content {
+    height: 750px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+.content p {
+    font-size:20px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+}
+.content h2 {
+    font-size:30px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+}
+#wall_1 {
+    background: url(../../images/m2.jpg) repeat;
+    background-attachment: fixed;
+}
+#wall_2 {
+    background: url(../../images/g16.jpg) repeat;
+    background-attachment: fixed;
+}
+#wall_3 {
+    background: url(../../images/m5.jpg) repeat;
+    background-attachment: fixed;
+}
+
+#nav {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(255,255,255,1);
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+}
+#nav #logo {
+    height: 40px;
+    width: 170px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    margin: auto 100px;
+}
+
+#nav #logo img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#content_1 {position: relative;}
 
 h1{
-	font-family: Poiret One;
-	position: absolute;
+    position: absolute;
 	top: 9em;
 }
+
 h1 span { 
    color: white; 
    font: bold 24px/45px Helvetica, Sans-Serif; 
-   font-size: 60px;
+   font-size: 70px;
    letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
    padding: 10px; 
 }
-.backdrop{
-    width: 100%;
-    height: auto;
-}
-p{
-  background-color: rgba(0, 120, 100, 0.51);
-  position: absolute;
-  bottom: -262px;
-  left: 15px;
-  width: 550px;
-  padding: 20px;
-  display: block;
-  color: white;
-  font-size: 22px;
-}
-.prompt{
-  background-color: rgba(100, 10, 100, 0.51);
-  position: absolute;
-  bottom: -360px;
-  left: 45px;
-  width: 200px;
-  padding: 20px;
-  display: block;
-  color: white;
-  font-size: 24px;
 
+.imgrow{
+    text-align: center;
 }
-#wowslider-container1{
-    position: absolute;
-    top: -355px;
-    left: 280px;
-    display: block;
+.team{
+    margin: 30px 60px;
+    float: left;
+    font-size: 20px;
+}
+
+ul{
+    margin: 30px 60px;
+    font-size: 20px;
+}
+
+h4{
+    margin: 30px 60px;
 }
