@@ -101,3 +101,7 @@ ul{
 h4{
     margin: 30px 60px;
 }
+
+.video{
+   float: right; 
+}
